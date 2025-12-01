@@ -1,0 +1,2992 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    searched_directories:
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 25.1.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    searched_directories:
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/opt/pmk/env/global/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/Library/TeX/texbin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/Users/imsaaiclub1/.cargo/bin/gmake"
+      - "/Users/imsaaiclub1/.spicetify/gmake"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    searched_directories:
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/cc"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/cc"
+      - "/usr/local/bin/cc"
+      - "/System/Cryptexes/App/usr/bin/cc"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/4.2.0/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler apple sysroot: "/usr/bin/cc" "-E" "apple-sdk.c"
+        # 1 "apple-sdk.c"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 466 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.c" 2
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.c" 2
+        
+        
+      Found apple sysroot: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/opt/pmk/env/global/bin/objcopy"
+      - "/Library/Apple/usr/bin/objcopy"
+      - "/Library/TeX/texbin/objcopy"
+      - "/opt/homebrew/bin/objcopy"
+      - "/Users/imsaaiclub1/.cargo/bin/objcopy"
+      - "/Users/imsaaiclub1/.spicetify/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/opt/pmk/env/global/bin/readelf"
+      - "/Library/Apple/usr/bin/readelf"
+      - "/Library/TeX/texbin/readelf"
+      - "/opt/homebrew/bin/readelf"
+      - "/Users/imsaaiclub1/.cargo/bin/readelf"
+      - "/Users/imsaaiclub1/.spicetify/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/opt/pmk/env/global/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/Library/TeX/texbin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/Users/imsaaiclub1/.cargo/bin/dlltool"
+      - "/Users/imsaaiclub1/.spicetify/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/opt/pmk/env/global/bin/addr2line"
+      - "/Library/Apple/usr/bin/addr2line"
+      - "/Library/TeX/texbin/addr2line"
+      - "/opt/homebrew/bin/addr2line"
+      - "/Users/imsaaiclub1/.cargo/bin/addr2line"
+      - "/Users/imsaaiclub1/.spicetify/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/opt/pmk/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/Library/TeX/texbin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/Users/imsaaiclub1/.cargo/bin/tapi"
+      - "/Users/imsaaiclub1/.spicetify/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/4.2.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 514 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    searched_directories:
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t3zMtX"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t3zMtX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t3zMtX'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_069be/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_069be.dir/build.make CMakeFiles/cmTC_069be.dir/build
+        Building C object CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 17.0.0 (clang-1700.4.4.1)
+        Target: arm64-apple-darwin25.1.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t3zMtX -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t3zMtX -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/17/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_069be
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_069be.dir/link.txt --verbose=1
+        Apple clang version 17.0.0 (clang-1700.4.4.1)
+        Target: arm64-apple-darwin25.1.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_069be -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1230.1
+        BUILD 16:18:08 Oct 17 2025
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+        Library search paths:
+        	/usr/local/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o -o cmTC_069be
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/17/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/17/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/17/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/17/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t3zMtX']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_069be/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_069be.dir/build.make CMakeFiles/cmTC_069be.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
+        ignore line: [Target: arm64-apple-darwin25.1.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t3zMtX -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t3zMtX -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/17/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_069be]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_069be.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
+        ignore line: [Target: arm64-apple-darwin25.1.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_069be -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [26.1] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_069be] ==> ignore
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_069be.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1230.1
+      BUILD 16:18:08 Oct 17 2025
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Ucs53N"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Ucs53N"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Ucs53N'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_46197/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_46197.dir/build.make CMakeFiles/cmTC_46197.dir/build
+        Building CXX object CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 17.0.0 (clang-1700.4.4.1)
+        Target: arm64-apple-darwin25.1.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Ucs53N -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Ucs53N -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/17/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_46197
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46197.dir/link.txt --verbose=1
+        Apple clang version 17.0.0 (clang-1700.4.4.1)
+        Target: arm64-apple-darwin25.1.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_46197 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1230.1
+        BUILD 16:18:08 Oct 17 2025
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+        Library search paths:
+        	/usr/local/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_46197
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/17/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/17/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/17/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/17/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Ucs53N']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_46197/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_46197.dir/build.make CMakeFiles/cmTC_46197.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
+        ignore line: [Target: arm64-apple-darwin25.1.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Ucs53N -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Ucs53N -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/17/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_46197]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46197.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
+        ignore line: [Target: arm64-apple-darwin25.1.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_46197 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [26.1] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_46197] ==> ignore
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_46197.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1230.1
+      BUILD 16:18:08 Oct 17 2025
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:31 (find_program)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "VERILATOR_BIN"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "verilator_bin"
+      - "verilator_bin.exe"
+    candidate_directories:
+      - "/opt/homebrew/share/verilator/bin/"
+      - "/Users/imsaaiclub1/.antigravity/antigravity/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/imsaaiclub1/.cargo/bin/"
+      - "/Users/imsaaiclub1/.spicetify/"
+    found: "/opt/homebrew/share/verilator/bin/verilator_bin"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Applications"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _faligned_new"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-3141fp"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-3141fp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_faligned_new"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-3141fp'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8e26a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8e26a.dir/build.make CMakeFiles/cmTC_8e26a.dir/build
+        Building CXX object CMakeFiles/cmTC_8e26a.dir/src.cxx.o
+        /usr/bin/c++ -D_faligned_new  -faligned-new -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_8e26a.dir/src.cxx.o -MF CMakeFiles/cmTC_8e26a.dir/src.cxx.o.d -o CMakeFiles/cmTC_8e26a.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-3141fp/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-3141fp/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_8e26a
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e26a.dir/link.txt --verbose=1
+        /usr/bin/c++  -faligned-new -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8e26a.dir/src.cxx.o -o cmTC_8e26a
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _fbracket_depth_4096"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-O5iKBb"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-O5iKBb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_fbracket_depth_4096"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-O5iKBb'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0eea2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0eea2.dir/build.make CMakeFiles/cmTC_0eea2.dir/build
+        Building CXX object CMakeFiles/cmTC_0eea2.dir/src.cxx.o
+        /usr/bin/c++ -D_fbracket_depth_4096  -fbracket-depth=4096 -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_0eea2.dir/src.cxx.o -MF CMakeFiles/cmTC_0eea2.dir/src.cxx.o.d -o CMakeFiles/cmTC_0eea2.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-O5iKBb/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-O5iKBb/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_0eea2
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eea2.dir/link.txt --verbose=1
+        /usr/bin/c++  -fbracket-depth=4096 -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0eea2.dir/src.cxx.o -o cmTC_0eea2
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _fcf_protection_none"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-dRDU7m"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-dRDU7m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_fcf_protection_none"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-dRDU7m'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6bcb8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6bcb8.dir/build.make CMakeFiles/cmTC_6bcb8.dir/build
+        Building CXX object CMakeFiles/cmTC_6bcb8.dir/src.cxx.o
+        /usr/bin/c++ -D_fcf_protection_none  -fcf-protection=none -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_6bcb8.dir/src.cxx.o -MF CMakeFiles/cmTC_6bcb8.dir/src.cxx.o.d -o CMakeFiles/cmTC_6bcb8.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-dRDU7m/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-dRDU7m/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_6bcb8
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bcb8.dir/link.txt --verbose=1
+        /usr/bin/c++  -fcf-protection=none -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6bcb8.dir/src.cxx.o -o cmTC_6bcb8
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Xclang"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-lNyMek"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-lNyMek"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Xclang"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-lNyMek'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fea70/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fea70.dir/build.make CMakeFiles/cmTC_fea70.dir/build
+        Building CXX object CMakeFiles/cmTC_fea70.dir/src.cxx.o
+        /usr/bin/c++ -D_Xclang  -Xclang -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_fea70.dir/src.cxx.o -MF CMakeFiles/cmTC_fea70.dir/src.cxx.o.d -o CMakeFiles/cmTC_fea70.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-lNyMek/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-lNyMek/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_fea70
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fea70.dir/link.txt --verbose=1
+        /usr/bin/c++  -Xclang -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fea70.dir/src.cxx.o -o cmTC_fea70
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _fno_pch_timestamp"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-akY339"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-akY339"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_fno_pch_timestamp"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-akY339'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f0c1a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f0c1a.dir/build.make CMakeFiles/cmTC_f0c1a.dir/build
+        Building CXX object CMakeFiles/cmTC_f0c1a.dir/src.cxx.o
+        /usr/bin/c++ -D_fno_pch_timestamp  -fno-pch-timestamp -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_f0c1a.dir/src.cxx.o -MF CMakeFiles/cmTC_f0c1a.dir/src.cxx.o.d -o CMakeFiles/cmTC_f0c1a.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-akY339/src.cxx
+        clang++: error: unknown argument '-fno-pch-timestamp'; did you mean '-Xclang -fno-pch-timestamp'?
+        make[1]: *** [CMakeFiles/cmTC_f0c1a.dir/src.cxx.o] Error 1
+        make: *** [cmTC_f0c1a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _mno_cet"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-FiwIWv"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-FiwIWv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_mno_cet"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-FiwIWv'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_13cf5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_13cf5.dir/build.make CMakeFiles/cmTC_13cf5.dir/build
+        Building CXX object CMakeFiles/cmTC_13cf5.dir/src.cxx.o
+        /usr/bin/c++ -D_mno_cet  -mno-cet -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_13cf5.dir/src.cxx.o -MF CMakeFiles/cmTC_13cf5.dir/src.cxx.o.d -o CMakeFiles/cmTC_13cf5.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-FiwIWv/src.cxx
+        clang++: error: unknown argument: '-mno-cet'
+        make[1]: *** [CMakeFiles/cmTC_13cf5.dir/src.cxx.o] Error 1
+        make: *** [cmTC_13cf5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Qunused_arguments"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-aFzafQ"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-aFzafQ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Qunused_arguments"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-aFzafQ'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f1af/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5f1af.dir/build.make CMakeFiles/cmTC_5f1af.dir/build
+        Building CXX object CMakeFiles/cmTC_5f1af.dir/src.cxx.o
+        /usr/bin/c++ -D_Qunused_arguments  -Qunused-arguments -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_5f1af.dir/src.cxx.o -MF CMakeFiles/cmTC_5f1af.dir/src.cxx.o.d -o CMakeFiles/cmTC_5f1af.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-aFzafQ/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-aFzafQ/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_5f1af
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f1af.dir/link.txt --verbose=1
+        /usr/bin/c++  -Qunused-arguments -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5f1af.dir/src.cxx.o -o cmTC_5f1af
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_bool_operation"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-q7jIvy"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-q7jIvy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_bool_operation"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-q7jIvy'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_44cd6/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_44cd6.dir/build.make CMakeFiles/cmTC_44cd6.dir/build
+        Building CXX object CMakeFiles/cmTC_44cd6.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_bool_operation  -Wno-bool-operation -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_44cd6.dir/src.cxx.o -MF CMakeFiles/cmTC_44cd6.dir/src.cxx.o.d -o CMakeFiles/cmTC_44cd6.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-q7jIvy/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-q7jIvy/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_44cd6
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44cd6.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-bool-operation -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_44cd6.dir/src.cxx.o -o cmTC_44cd6
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_c__11_narrowing"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-paLAxw"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-paLAxw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_c__11_narrowing"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-paLAxw'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_06c7b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_06c7b.dir/build.make CMakeFiles/cmTC_06c7b.dir/build
+        Building CXX object CMakeFiles/cmTC_06c7b.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_c__11_narrowing  -Wno-c++11-narrowing -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_06c7b.dir/src.cxx.o -MF CMakeFiles/cmTC_06c7b.dir/src.cxx.o.d -o CMakeFiles/cmTC_06c7b.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-paLAxw/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-paLAxw/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_06c7b
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06c7b.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-c++11-narrowing -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_06c7b.dir/src.cxx.o -o cmTC_06c7b
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_constant_logical_operand"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-m7X70z"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-m7X70z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_constant_logical_operand"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-m7X70z'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e105a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e105a.dir/build.make CMakeFiles/cmTC_e105a.dir/build
+        Building CXX object CMakeFiles/cmTC_e105a.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_constant_logical_operand  -Wno-constant-logical-operand -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_e105a.dir/src.cxx.o -MF CMakeFiles/cmTC_e105a.dir/src.cxx.o.d -o CMakeFiles/cmTC_e105a.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-m7X70z/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-m7X70z/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_e105a
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e105a.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-constant-logical-operand -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e105a.dir/src.cxx.o -o cmTC_e105a
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_int_in_bool_context"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-F4FP1f"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-F4FP1f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_int_in_bool_context"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-F4FP1f'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ef628/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ef628.dir/build.make CMakeFiles/cmTC_ef628.dir/build
+        Building CXX object CMakeFiles/cmTC_ef628.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_int_in_bool_context  -Wno-int-in-bool-context -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_ef628.dir/src.cxx.o -MF CMakeFiles/cmTC_ef628.dir/src.cxx.o.d -o CMakeFiles/cmTC_ef628.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-F4FP1f/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-F4FP1f/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_ef628
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef628.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-int-in-bool-context -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ef628.dir/src.cxx.o -o cmTC_ef628
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_non_pod_varargs"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-xmMGsh"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-xmMGsh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_non_pod_varargs"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-xmMGsh'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_24c60/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_24c60.dir/build.make CMakeFiles/cmTC_24c60.dir/build
+        Building CXX object CMakeFiles/cmTC_24c60.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_non_pod_varargs  -Wno-non-pod-varargs -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_24c60.dir/src.cxx.o -MF CMakeFiles/cmTC_24c60.dir/src.cxx.o.d -o CMakeFiles/cmTC_24c60.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-xmMGsh/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-xmMGsh/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_24c60
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24c60.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-non-pod-varargs -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_24c60.dir/src.cxx.o -o cmTC_24c60
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_parentheses_equality"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-SbYgJX"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-SbYgJX"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_parentheses_equality"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-SbYgJX'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50764/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_50764.dir/build.make CMakeFiles/cmTC_50764.dir/build
+        Building CXX object CMakeFiles/cmTC_50764.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_parentheses_equality  -Wno-parentheses-equality -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_50764.dir/src.cxx.o -MF CMakeFiles/cmTC_50764.dir/src.cxx.o.d -o CMakeFiles/cmTC_50764.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-SbYgJX/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-SbYgJX/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_50764
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50764.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-parentheses-equality -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_50764.dir/src.cxx.o -o cmTC_50764
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_shadow"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-BsmDr1"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-BsmDr1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_shadow"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-BsmDr1'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b7ec8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b7ec8.dir/build.make CMakeFiles/cmTC_b7ec8.dir/build
+        Building CXX object CMakeFiles/cmTC_b7ec8.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_shadow  -Wno-shadow -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_b7ec8.dir/src.cxx.o -MF CMakeFiles/cmTC_b7ec8.dir/src.cxx.o.d -o CMakeFiles/cmTC_b7ec8.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-BsmDr1/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-BsmDr1/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_b7ec8
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7ec8.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-shadow -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b7ec8.dir/src.cxx.o -o cmTC_b7ec8
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_sign_compare"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-PQE1N5"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-PQE1N5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_sign_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-PQE1N5'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0e777/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0e777.dir/build.make CMakeFiles/cmTC_0e777.dir/build
+        Building CXX object CMakeFiles/cmTC_0e777.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_sign_compare  -Wno-sign-compare -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_0e777.dir/src.cxx.o -MF CMakeFiles/cmTC_0e777.dir/src.cxx.o.d -o CMakeFiles/cmTC_0e777.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-PQE1N5/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-PQE1N5/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_0e777
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e777.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-sign-compare -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0e777.dir/src.cxx.o -o cmTC_0e777
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_subobject_linkage"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-IO4INg"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-IO4INg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_subobject_linkage"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-IO4INg'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3d0c1/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3d0c1.dir/build.make CMakeFiles/cmTC_3d0c1.dir/build
+        Building CXX object CMakeFiles/cmTC_3d0c1.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_subobject_linkage  -Wno-subobject-linkage -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_3d0c1.dir/src.cxx.o -MF CMakeFiles/cmTC_3d0c1.dir/src.cxx.o.d -o CMakeFiles/cmTC_3d0c1.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-IO4INg/src.cxx
+        warning: unknown warning option '-Wno-subobject-linkage' [-Wunknown-warning-option]
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-IO4INg/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        2 warnings generated.
+        Linking CXX executable cmTC_3d0c1
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d0c1.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-subobject-linkage -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3d0c1.dir/src.cxx.o -o cmTC_3d0c1
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_tautological_bitwise_compare"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t9Q8S5"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t9Q8S5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_tautological_bitwise_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t9Q8S5'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_be27e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_be27e.dir/build.make CMakeFiles/cmTC_be27e.dir/build
+        Building CXX object CMakeFiles/cmTC_be27e.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_tautological_bitwise_compare  -Wno-tautological-bitwise-compare -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_be27e.dir/src.cxx.o -MF CMakeFiles/cmTC_be27e.dir/src.cxx.o.d -o CMakeFiles/cmTC_be27e.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t9Q8S5/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-t9Q8S5/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_be27e
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be27e.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-tautological-bitwise-compare -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_be27e.dir/src.cxx.o -o cmTC_be27e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_tautological_compare"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-aHj7n0"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-aHj7n0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_tautological_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-aHj7n0'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_40fbe/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_40fbe.dir/build.make CMakeFiles/cmTC_40fbe.dir/build
+        Building CXX object CMakeFiles/cmTC_40fbe.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_tautological_compare  -Wno-tautological-compare -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_40fbe.dir/src.cxx.o -MF CMakeFiles/cmTC_40fbe.dir/src.cxx.o.d -o CMakeFiles/cmTC_40fbe.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-aHj7n0/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-aHj7n0/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_40fbe
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40fbe.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-tautological-compare -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_40fbe.dir/src.cxx.o -o cmTC_40fbe
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_uninitialized"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-lILZV7"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-lILZV7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_uninitialized"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-lILZV7'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f5f66/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f5f66.dir/build.make CMakeFiles/cmTC_f5f66.dir/build
+        Building CXX object CMakeFiles/cmTC_f5f66.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_uninitialized  -Wno-uninitialized -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_f5f66.dir/src.cxx.o -MF CMakeFiles/cmTC_f5f66.dir/src.cxx.o.d -o CMakeFiles/cmTC_f5f66.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-lILZV7/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-lILZV7/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_f5f66
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5f66.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-uninitialized -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f5f66.dir/src.cxx.o -o cmTC_f5f66
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_but_set_parameter"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-NdDQWs"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-NdDQWs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_unused_but_set_parameter"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-NdDQWs'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_32b74/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_32b74.dir/build.make CMakeFiles/cmTC_32b74.dir/build
+        Building CXX object CMakeFiles/cmTC_32b74.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_unused_but_set_parameter  -Wno-unused-but-set-parameter -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_32b74.dir/src.cxx.o -MF CMakeFiles/cmTC_32b74.dir/src.cxx.o.d -o CMakeFiles/cmTC_32b74.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-NdDQWs/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-NdDQWs/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_32b74
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32b74.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-unused-but-set-parameter -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_32b74.dir/src.cxx.o -o cmTC_32b74
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_but_set_variable"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-OEpYwa"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-OEpYwa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_unused_but_set_variable"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-OEpYwa'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_030c1/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_030c1.dir/build.make CMakeFiles/cmTC_030c1.dir/build
+        Building CXX object CMakeFiles/cmTC_030c1.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_unused_but_set_variable  -Wno-unused-but-set-variable -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_030c1.dir/src.cxx.o -MF CMakeFiles/cmTC_030c1.dir/src.cxx.o.d -o CMakeFiles/cmTC_030c1.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-OEpYwa/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-OEpYwa/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_030c1
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_030c1.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-unused-but-set-variable -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_030c1.dir/src.cxx.o -o cmTC_030c1
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_parameter"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-7MtgqZ"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-7MtgqZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_unused_parameter"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-7MtgqZ'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6aeba/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6aeba.dir/build.make CMakeFiles/cmTC_6aeba.dir/build
+        Building CXX object CMakeFiles/cmTC_6aeba.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_unused_parameter  -Wno-unused-parameter -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_6aeba.dir/src.cxx.o -MF CMakeFiles/cmTC_6aeba.dir/src.cxx.o.d -o CMakeFiles/cmTC_6aeba.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-7MtgqZ/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-7MtgqZ/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_6aeba
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aeba.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-unused-parameter -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6aeba.dir/src.cxx.o -o cmTC_6aeba
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_variable"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-cPF8BY"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-cPF8BY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_Wno_unused_variable"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-cPF8BY'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_af7da/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_af7da.dir/build.make CMakeFiles/cmTC_af7da.dir/build
+        Building CXX object CMakeFiles/cmTC_af7da.dir/src.cxx.o
+        /usr/bin/c++ -D_Wno_unused_variable  -Wno-unused-variable -Wno-error=cpp -arch arm64 -MD -MT CMakeFiles/cmTC_af7da.dir/src.cxx.o -MF CMakeFiles/cmTC_af7da.dir/src.cxx.o.d -o CMakeFiles/cmTC_af7da.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-cPF8BY/src.cxx
+        /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-cPF8BY/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_af7da
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af7da.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-unused-variable -Wno-error=cpp -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_af7da.dir/src.cxx.o -o cmTC_af7da
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:64 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:114 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _mt"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-2AMGbh"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-2AMGbh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_mt"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-2AMGbh'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_01204/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_01204.dir/build.make CMakeFiles/cmTC_01204.dir/build
+        Building CXX object CMakeFiles/cmTC_01204.dir/src.cxx.o
+        /usr/bin/c++ -D_mt  -arch arm64 -MD -MT CMakeFiles/cmTC_01204.dir/src.cxx.o -MF CMakeFiles/cmTC_01204.dir/src.cxx.o.d -o CMakeFiles/cmTC_01204.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-2AMGbh/src.cxx
+        Linking CXX executable cmTC_01204
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01204.dir/link.txt --verbose=1
+        clang++: error: unknown argument: '-mt'
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_01204.dir/src.cxx.o -o cmTC_01204  -mt
+        make[1]: *** [cmTC_01204] Error 1
+        make: *** [cmTC_01204/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:64 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:114 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _pthread"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-I8Lm23"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-I8Lm23"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_pthread"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-I8Lm23'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9a9bc/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9a9bc.dir/build.make CMakeFiles/cmTC_9a9bc.dir/build
+        Building CXX object CMakeFiles/cmTC_9a9bc.dir/src.cxx.o
+        /usr/bin/c++ -D_pthread  -arch arm64 -MD -MT CMakeFiles/cmTC_9a9bc.dir/src.cxx.o -MF CMakeFiles/cmTC_9a9bc.dir/src.cxx.o.d -o CMakeFiles/cmTC_9a9bc.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-I8Lm23/src.cxx
+        Linking CXX executable cmTC_9a9bc
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a9bc.dir/link.txt --verbose=1
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9a9bc.dir/src.cxx.o -o cmTC_9a9bc  -pthread
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:64 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:114 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _lpthread"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Y6NlPq"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Y6NlPq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_lpthread"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Y6NlPq'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c8a19/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c8a19.dir/build.make CMakeFiles/cmTC_c8a19.dir/build
+        Building CXX object CMakeFiles/cmTC_c8a19.dir/src.cxx.o
+        /usr/bin/c++ -D_lpthread  -arch arm64 -MD -MT CMakeFiles/cmTC_c8a19.dir/src.cxx.o -MF CMakeFiles/cmTC_c8a19.dir/src.cxx.o.d -o CMakeFiles/cmTC_c8a19.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-Y6NlPq/src.cxx
+        Linking CXX executable cmTC_c8a19
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8a19.dir/link.txt --verbose=1
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c8a19.dir/src.cxx.o -o cmTC_c8a19  -lpthread
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:64 (check_cxx_source_compiles)"
+      - "/opt/homebrew/share/verilator/verilator-config.cmake:114 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test _latomic"
+    directories:
+      source: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-2UTgpj"
+      binary: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-2UTgpj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "_latomic"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-2UTgpj'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2d0cd/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2d0cd.dir/build.make CMakeFiles/cmTC_2d0cd.dir/build
+        Building CXX object CMakeFiles/cmTC_2d0cd.dir/src.cxx.o
+        /usr/bin/c++ -D_latomic  -arch arm64 -MD -MT CMakeFiles/cmTC_2d0cd.dir/src.cxx.o -MF CMakeFiles/cmTC_2d0cd.dir/src.cxx.o.d -o CMakeFiles/cmTC_2d0cd.dir/src.cxx.o -c /Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/CMakeScratch/TryCompile-2UTgpj/src.cxx
+        Linking CXX executable cmTC_2d0cd
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d0cd.dir/link.txt --verbose=1
+        ld: library 'atomic' not found
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2d0cd.dir/src.cxx.o -o cmTC_2d0cd  -latomic
+        make[1]: *** [cmTC_2d0cd] Error 1
+        make: *** [cmTC_2d0cd/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:5 (find_package)"
+    name: "Verilator"
+    configs:
+      -
+        filename: "VerilatorConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "verilator-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Verilator"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/pkgRedirects/VerilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/imsaaiclub1/projects/adcomp/hybrid_sim/build/CMakeFiles/pkgRedirects/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/imsaaiclub1/.antigravity/antigravity/VerilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/imsaaiclub1/.antigravity/antigravity/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Python.framework/Versions/3.14/VerilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Python.framework/Versions/3.14/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/VerilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/VerilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/VerilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/VerilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Apple/usr/VerilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Apple/usr/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/TeX/texbin/VerilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/TeX/texbin/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/VerilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/share/verilator/VerilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/share/verilator/verilator-config.cmake"
+      mode: "config"
+      version: "5.042"
+    search_context:
+      ENV{PATH}:
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/homebrew/bin"
+        - "/Users/imsaaiclub1/.antigravity/antigravity/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/imsaaiclub1/.cargo/bin"
+        - "/Users/imsaaiclub1/.spicetify"
+        - "/Users/imsaaiclub1/.spicetify"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+...

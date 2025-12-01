@@ -1,0 +1,19 @@
+* Hybrid Sim Analog Component - RC Circuit
+* Simulation time step: 1us
+.TRAN 0 1us 0 1ns
+
+* Initial Condition Placeholder - to be replaced by C++ wrapper
+* Format: .IC V(2)=<voltage>
+.IC V(2)=1.735141
+
+* Circuit Description
+* Voltage Source controlled by Digital DAC - value to be replaced
+V1 1 0 DC 1.941176
+
+R1 1 2 1k
+C1 2 0 10n
+
+* Output
+.PRINT TRAN V(2)
+
+.END
