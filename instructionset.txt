@@ -1,0 +1,19 @@
+16 bit instructions,
+
+(rp) (reg)
+00  | A,  000 | B,  001
+01  | C,  010 | D,  011
+10  | H,  100 | L,  101
+11  | PC, 110 | FL, 111
+
+A/D | TP |
+
+ 0    00  :  single register operations
+      01  :  double register operations
+      10  :  addressing, load operations
+      11  :  branching + inputs, interrupts
+
+ 1    00
+      01
+      10
+      11 
