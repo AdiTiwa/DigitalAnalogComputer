@@ -2,12 +2,12 @@
 
 module port_ram (
   input logic		            clk,
-  input logic[`b_size-1:0]  addr,
+  input logic[`b_size-4:0]  addr,
   input logic               cs,
   input logic               we,
   input logic               oe,
 
-  inout logic[`b_size-4:0]	data,
+  inout logic[`b_size-1:0]	data,
 );
 
   reg [`b_size-1:0] 	tmp_data;

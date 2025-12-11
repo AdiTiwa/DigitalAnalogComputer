@@ -6,6 +6,12 @@ module cpu (
   input   logic[`b_size-1:0]  instruction;
   input   logic               reset;
 
-  output  logic[]
-
+  output  logic[`b_size-1:0]  oM;
+  output  logic               wrM;
+  output  logic[`b_size-4:0]  A;
+  output  logic[`b_size-1:0]  pc;
 )
+
+  
+
+endmodule
